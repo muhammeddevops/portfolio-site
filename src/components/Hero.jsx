@@ -25,9 +25,9 @@ const Hero = () => {
             web and mobile, applications
           </p>
         </div>
-
-        <ComputersCanvas />
       </div>
+
+      <ComputersCanvas />
     </section>
   );
 };
