@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  bootstrap,
+  jest,
 } from "../assets";
 
 export const navLinks = [
@@ -77,6 +79,10 @@ const technologies = [
     icon: tailwind,
   },
   {
+    name: "Bootstrap CSS",
+    icon: bootstrap,
+  },
+  {
     name: "Node JS",
     icon: nodejs,
   },
@@ -87,6 +93,10 @@ const technologies = [
   {
     name: "Three JS",
     icon: threejs,
+  },
+  {
+    name: "Jest",
+    icon: jest,
   },
   {
     name: "git",
