@@ -1,8 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import {
-  About,
+  Overview,
   Contact,
+  About,
+  Portfolio,
   Experience,
   Testimonials,
   Hero,
@@ -23,12 +25,10 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/about" element={<About />} />
-          <Route path="/work" element={<Works />} />
+          <Route path="/work" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        {/* <Hero />
-        <About />
-        <Experience />
+        {/* 
         <Tech />
         <Works />
         <Testimonials /> */}
