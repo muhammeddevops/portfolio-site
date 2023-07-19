@@ -1,7 +1,10 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 import {
-  About,
+  Overview,
   Contact,
+  About,
+  Portfolio,
   Experience,
   Testimonials,
   Hero,
@@ -15,19 +18,24 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
-        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-          <Navbar />
-          <Hero />
-        </div>
-        <About />
-        <Experience />
+        {/* <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center"> */}
+        <Navbar />
+        {/* </div> */}
+
+        <Routes>
+          <Route path="/" element={<Hero />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/work" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        {/* 
         <Tech />
         <Works />
-        <Testimonials />
+        <Testimonials /> */}
 
         <div className="relative z-0">
-          <Contact />
-          <StarsCanvas />
+          {/* <Contact />
+          <StarsCanvas /> */}
         </div>
       </div>
     </BrowserRouter>
