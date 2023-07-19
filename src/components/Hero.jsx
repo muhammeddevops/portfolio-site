@@ -6,7 +6,7 @@ import { ComputersCanvas } from "./canvas";
 const Hero = () => {
   return (
     // Im not sure why or how but having the section below and using classname h-screen provides the dark blue with curv lines bg
-    <section className="relative w-full h-screen mx-auto">
+    <section className="relative w-full h-screen mx-auto bg-hero-pattern bg-cover">
       <div
         className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
       >
