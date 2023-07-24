@@ -17,6 +17,7 @@ import {
   docker,
   meta,
   starbucks,
+  oakwell,
   tesla,
   shopify,
   carrent,
@@ -114,12 +115,18 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Job Title",
-    company_name: "Company name",
-    icon: starbucks,
+    title: "Hotel Manager",
+    company_name: "Oakwell Hotel",
+    icon: oakwell,
     iconBg: "#383E56",
     date: "dates worked",
-    points: ["Responsibility 1", "Responsibility 2", "Responsibility 3"],
+    points: [
+      "Housekeeping",
+      "Staff management",
+      "Managing booking and availabilities on Booking.com system",
+      "Budgeting",
+      "Marketing",
+    ],
   },
   {
     title: "React Native Developer",
@@ -165,11 +172,12 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Muhammed proved me wrong.",
-    name: "Sally Smith",
-    designation: "CFO",
-    company: "Company name",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I had the pleasure of being Muhammed's mentor during his time at Northcoders. Muhammed was a joy to have on the course. He actively participated in lectures and was very passionate on the sprints. He is a brilliant problem solver and has excellent teamwork and communication skills. I have no doubt he would be an asset in any software development role.",
+    name: "Rayhaan Ugharadar",
+    designation: "Mentor",
+    company: "Northcoders",
+    image:
+      "https://media.licdn.com/dms/image/C4E03AQEgylloJ3YtVg/profile-displayphoto-shrink_100_100/0/1647021594515?e=1695254400&v=beta&t=beC2qfjm0d96eroB6ZPMT6HKle2lmR4N0pOJDvzsmo4",
   },
   {
     testimonial:
