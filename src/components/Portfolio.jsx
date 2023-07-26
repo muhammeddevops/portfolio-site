@@ -18,4 +18,4 @@ const Portfolio = () => {
   );
 };
 
-export default SectionWrapper(Portfolio, "work");
+export default Portfolio;
