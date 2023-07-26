@@ -24,11 +24,20 @@ import jest from "./tech/jest.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import oakwell from "./company/oakwell.png";
+import mremovals from "./company/marriotremovals.jpeg";
+import northcoders from "./company/northcoders.png";
+
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import mkbackend from "./mkbackend-ss.png";
+import mkgames from "./MKgamesDM.png";
+import siteConstruction from "./site-construction.jpg";
+
+import portfolio from "./portfolio-site.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -62,7 +71,14 @@ export {
   shopify,
   starbucks,
   tesla,
+  mkbackend,
+  siteConstruction,
+  mkgames,
+  portfolio,
   carrent,
   jobit,
   tripguide,
+  oakwell,
+  northcoders,
+  mremovals,
 };

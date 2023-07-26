@@ -34,26 +34,25 @@ const Overview = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>Overview</p>
+        <h2 className={styles.sectionHeadText}>Introduction</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[20px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled JavaScript developer Lorem ipsum dolor sit amet
-        consectetur, adipisicing elit. Numquam harum consequuntur recusandae
-        doloribus iure cupiditate, quam possimus quasi quisquam quae minus
-        repudiandae sint reprehenderit. Fugit quasi voluptate id quas alias
-        nobis nihil nulla provident! Deserunt, nostrum, laudantium expedita
-        voluptas assumenda iusto natus, possimus totam qui explicabo dolores
-        quia perspiciatis nesciunt inventore alias suscipit ipsum adipisci.
-        Facilis, similique. Vero dicta ea at, iusto aliquid perspiciatis,
-        deserunt modi numquam ducimus ullam illum voluptate excepturi quibusdam
-        sequi minima debitis cupiditate aliquam harum fugiat. Minima harum dolor
-        nostrum, eum architecto quos blanditiis voluptatum ducimus voluptates
-        aut magnam placeat nemo vitae voluptatem iusto. Praesentium, obcaecati.
+        Welcome to my portfolio site!
+        <br />
+        I'm a dynamic and resourceful junior developer with a passion for
+        problem-solving. With a strong foundation in various programming
+        languages and frameworks, including JavaScript, React, Node.js, SQL, and
+        Three.js, I thrive on tackling challenging projects. <br />
+        Whether collaborating as a team player or flying solo, I embrace every
+        opportunity to grow and deliver exceptional results. <br />I am
+        currently seeking new opportunities to contribute my skills and make a
+        meaningful impact in the tech world. Let's connect and explore the
+        possibilities together!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
@@ -65,4 +64,4 @@ const Overview = () => {
   );
 };
 
-export default Overview;
+export default SectionWrapper(Overview, "about");
