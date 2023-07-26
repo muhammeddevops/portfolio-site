@@ -30,7 +30,7 @@ const ProjectCard = ({
           <img
             src={image}
             alt={name}
-            className="w-full h-full object-cover rounded-2xl"
+            className="w-full h-full object-contain rounded-2xl"
           />
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
@@ -79,8 +79,8 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>What I have done so far</p>
-        <h2 className={styles.sectionHeadText}>Projects</h2>
+        <p className={styles.sectionSubText}>My ongoing list of projects</p>
+        <h2 className={styles.sectionHeadText}>Portfolio</h2>
       </motion.div>
 
       <div className="w-full flex">
@@ -88,8 +88,13 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          THe following projects are cool, I made them //this is filler text for
-          now//
+          The projects listed below exemplify my skills and experience,
+          showcasing my ability to tackle complex problems, work with a variety
+          of technologies, and effectively manage projects. Each project is
+          accompanied by a brief description and links to both its code
+          repository and live demo. <br />I will be adding to this list very
+          soon, as I continue learning new technologies and diversifying my
+          tool-box
         </motion.p>
       </div>
 
