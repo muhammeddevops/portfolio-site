@@ -47,12 +47,13 @@ const Overview = () => {
         I'm a dynamic and resourceful junior developer with a passion for
         problem-solving. My skill set includes a solid foundation in various
         programming languages and frameworks, such as JavaScript, React,
-        Node.js, SQL, and Three.js. Thriving on tackling challenging projects, I
-        eagerly embrace opportunities to grow and deliver exceptional results,
-        both as a team player and when working independently. Currently, I am
-        actively seeking new opportunities to contribute my skills and create a
-        meaningful impact in the tech world. Let's connect and explore the
-        possibilities together!
+        Node.js, SQL, and Three.js. <br />
+        Thriving on tackling challenging projects, I eagerly embrace
+        opportunities to grow and deliver exceptional results, both as a team
+        player and when working independently. <br />
+        Currently, I am actively seeking new opportunities to contribute my
+        skills and create a meaningful impact in the tech world. Let's connect
+        and explore the possibilities together!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
