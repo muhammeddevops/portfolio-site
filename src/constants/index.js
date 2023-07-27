@@ -263,7 +263,7 @@ const projects = [
     ],
     image: portfolio,
     source_code_link: "https://github.com/muhammeddevops/portfolio-site",
-    live_link: "",
+    live_link: "https://jsbymk.com/",
   },
   {
     name: "New projects coming soon",
