@@ -117,16 +117,18 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Hotel Manager",
-    company_name: "Oakwell Hotel",
-    icon: oakwell,
-    iconBg: "#383E56",
-    date: "dates worked",
+    title: "Trainee Software Engineer",
+    company_name: "Northcoders",
+    icon: northcoders,
+    iconBg: "#FFFFFF",
+
+    date: "Jan 2023 - Present",
     points: [
-      "Ensured complete customer satisfaction through excellent service and efficient housekeeping management",
-      "Achieved considerable growth in repeat customers via data-driven marketing and record-keeping.",
-      "Reduced operational costs by making changes to breakfast routines and staffing",
-      "As a hotel manager in a small family-run bed and breakfast, versatility was essential, and I embraced the many hats I wore.",
+      "Developed valuable experience and knowledge in various programming languages, software development frameworks, and web development tools.",
+      "Mastered skills in JavaScript, React, SQL, and Node.js, gaining expertise in modern web development technologies.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Worked on solo and group projects, gaining a deep understanding of the software development life cycle, including test-driven development, design, implementation, and testing",
+      "Successfully presented solutions feedback and code implementations during stand up sessions, enhancing the team’s collective knowledge.",
     ],
   },
   {
@@ -141,18 +143,16 @@ const experiences = [
     ],
   },
   {
-    title: "Trainee Software Engineer",
-    company_name: "Northcoders",
-    icon: northcoders,
-    iconBg: "#FFFFFF",
-
-    date: "Jan 2023 - Present",
+    title: "Hotel Manager",
+    company_name: "Oakwell Hotel",
+    icon: oakwell,
+    iconBg: "#383E56",
+    date: "Nov 2017 - May 2021",
     points: [
-      "Developed valuable experience and knowledge in various programming languages, software development frameworks, and web development tools.",
-      "Mastered skills in JavaScript, React, SQL, and Node.js, gaining expertise in modern web development technologies.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Worked on solo and group projects, gaining a deep understanding of the software development life cycle, including test-driven development, design, implementation, and testing",
-      "Successfully presented solutions feedback and code implementations during stand up sessions, enhancing the team’s collective knowledge.",
+      "Ensured complete customer satisfaction through excellent service and efficient housekeeping management",
+      "Achieved considerable growth in repeat customers via data-driven marketing and record-keeping.",
+      "Reduced operational costs by making changes to breakfast routines and staffing",
+      "As a hotel manager in a small family-run bed and breakfast, versatility was essential, and I embraced the many hats I wore.",
     ],
   },
 ];
