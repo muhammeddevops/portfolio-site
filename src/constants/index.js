@@ -1,30 +1,19 @@
 import {
-  mobile,
   backend,
-  creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
   oakwell,
   mremovals,
   northcoders,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   bootstrap,
   jest,
@@ -36,12 +25,20 @@ import {
 
 export const navLinks = [
   {
+    id: "",
+    title: "Home",
+  },
+  {
     id: "about",
     title: "About",
   },
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "testimonials",
+    title: "Testimonials",
   },
   {
     id: "contact",

@@ -1,7 +1,5 @@
 import logo from "./mks-logo.png";
 import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import link from "./link.svg";
@@ -28,25 +26,15 @@ import oakwell from "./company/oakwell.png";
 import mremovals from "./company/marriotremovals.jpeg";
 import northcoders from "./company/northcoders.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
 import mkbackend from "./mkbackend-ss.png";
 import mkgames from "./MKgamesDM.png";
 import siteConstruction from "./site-construction.jpg";
 
 import portfolio from "./portfolio-site.png";
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 
 export {
   logo,
   backend,
-  creator,
-  mobile,
   web,
   github,
   link,
@@ -67,17 +55,10 @@ export {
   jest,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   mkbackend,
   portfolio,
   siteConstruction,
   mkgames,
-  carrent,
-  jobit,
-  tripguide,
   oakwell,
   northcoders,
   mremovals,
