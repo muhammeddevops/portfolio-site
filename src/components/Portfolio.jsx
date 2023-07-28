@@ -11,9 +11,7 @@ const Portfolio = () => {
       <div className="bg-bg2 bg-cover bg-no-repeat bg-center">
         <Works />
       </div>
-      <div className="bg-bg3 bg-cover bg-no-repeat bg-center">
-        <Testimonials />
-      </div>
+      <div className="bg-bg3 bg-cover bg-no-repeat bg-center"></div>
     </div>
   );
 };
