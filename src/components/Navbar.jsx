@@ -20,7 +20,7 @@ const Navbar = () => {
       const url = window.URL.createObjectURL(blob);
       const link = document.createElement("a");
       link.href = url;
-      link.download = "JSbyMKdotComCV.docx"; // Replace with your desired file name
+      link.download = "JSbyMKdotComCV.pdf"; // Replace with your desired file name
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
