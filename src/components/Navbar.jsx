@@ -15,7 +15,7 @@ const Navbar = () => {
   const handleDownloadCV = async () => {
     console.log("in here");
     try {
-      const response = await fetch("/cvNew.docx"); // Replace with the correct path to your CV file
+      const response = await fetch("/cvNew.pdf"); // Replace with the correct path to your CV file
       const blob = await response.blob();
       const url = window.URL.createObjectURL(blob);
       const link = document.createElement("a");
