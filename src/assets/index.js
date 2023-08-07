@@ -27,6 +27,9 @@ import threejs from "./tech/threejs.svg";
 import oakwell from "./company/oakwell.png";
 import mremovals from "./company/marriotremovals.jpeg";
 import northcoders from "./company/northcoders.png";
+import animal from "./company/animal-athletics.png";
+import fluid from "./company/fluid.jpeg";
+import osman from "./company/osman-telecom-logo.png";
 
 import mkbackend from "./mkbackend-ss.png";
 import mkgames from "./MKgamesDM.png";
@@ -65,4 +68,7 @@ export {
   oakwell,
   northcoders,
   mremovals,
+  animal,
+  fluid,
+  osman,
 };

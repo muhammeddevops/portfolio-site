@@ -5,7 +5,6 @@ const ContactPage = () => {
   return (
     <div className="relative z-0 min-h-screen">
       <Contact />
-      <StarsCanvas />
     </div>
   );
 };

@@ -21,6 +21,9 @@ import {
   siteConstruction,
   mkgames,
   portfolio,
+  animal,
+  fluid,
+  osman,
 } from "../assets";
 
 export const navLinks = [
@@ -113,6 +116,43 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Front-end Developer",
+    company_name: "Fluid AI",
+    icon: fluid,
+    iconBg: "#FFFFFF",
+
+    date: "Aug 2023 - Present",
+    points: [
+      "Preparing to present a Minimum Viable Product (MVP), laying the groundwork for securing vital funding and propelling the company’s vision towards success and significant impact in the industry.",
+      "Collaborating closely with a diverse group of experts to develop a groundbreaking solution addressing the common pain points faced by small to medium-sized startups.",
+      "Spearheading the front-end development using React and Nextjs, orchestrating a captivating and intuitive user interface that promises to elevate user experience to new heights.",
+      "Contributing fresh ideas and insights in brainstorming sessions that shape the app's functionality and user experience.",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "Osman Telecom",
+    icon: osman,
+    iconBg: "#FFFFFF",
+
+    date: "Aug 2023 - Present",
+    points: [
+      "Developing a site and backend for a convenience store as a freelance developer",
+      " Ensuring seamless customer experience and inventory management using Nextjs",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "Animal Athletics",
+    icon: animal,
+    iconBg: "#FFFFFF",
+
+    date: "Aug 2023 - Present",
+    points: [
+      "Designing and developing online presence for an emerging boxing brand with a landing page, shopping site and a robust backend.",
+    ],
+  },
   {
     title: "Trainee Software Engineer",
     company_name: "Northcoders",
