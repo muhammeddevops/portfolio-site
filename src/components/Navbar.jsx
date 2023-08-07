@@ -51,7 +51,7 @@ const Navbar = () => {
             </p>
           </Link>
         </div>
-        <div className=" gap-3 ml-3 flex justify-self-center">
+        <div className=" gap-3 ml-3 flex">
           <a
             className="mr-2 sm:mr-5 pt-3"
             href="https://www.linkedin.com/in/muhammed-khan-63b009234/"
