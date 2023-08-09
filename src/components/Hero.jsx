@@ -5,7 +5,6 @@ import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
-    // Im not sure why or how but having the section below and using classname h-screen provides the dark blue with curv lines bg
     <section className="relative w-full h-screen mx-auto bg-hero-pattern bg-cover">
       <div
         className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
@@ -21,7 +20,7 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Muhammed</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop Full Stack JavaScript, <br className="sm:block hidden" />{" "}
+            I develop Full Stack JavaScript <br className="sm:block hidden" />{" "}
             web and mobile applications
           </p>
         </div>

@@ -48,6 +48,7 @@ const Overview = () => {
         problem-solving. My skill set includes a solid foundation in various
         programming languages and frameworks, such as JavaScript, React,
         Node.js, SQL, and Three.js. <br />
+        <br />
         Thriving on tackling challenging projects, I eagerly embrace
         opportunities to grow and deliver exceptional results, both as a team
         player and when working independently. <br />

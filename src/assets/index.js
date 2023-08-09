@@ -1,4 +1,4 @@
-import logo from "./mks-logo.png";
+import logo from "./mks-logo4.png";
 import backend from "./backend.png";
 import web from "./web.png";
 import github from "./github.png";
@@ -6,7 +6,8 @@ import link from "./link.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import cv from "./curriculum-vitae.png";
+import cv from "./resume2.png";
+import linkedin from "./linkedin2.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -46,6 +47,7 @@ export {
   menu,
   close,
   cv,
+  linkedin,
   css,
   docker,
   figma,

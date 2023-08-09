@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, linkedin } from "../assets";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import { cv } from "../assets";
@@ -44,25 +44,28 @@ const Navbar = () => {
               window.scrollTo(0, 0);
             }}
           >
-            <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+            <img
+              src={logo}
+              alt="logo"
+              className="w-9 h-9 object-contain rounded-lg"
+            />
             <p className="hidden sm:block text-white text-[18px] font-bold cursor-pointer flex">
-              Muhammed Khan &nbsp;
-              <span className="xl:block hidden">| JS Developer</span>
+              Muhammed Khan
             </p>
           </Link>
         </div>
 
-        <div className=" gap-3 ml-3 flex">
+        <div className=" gap-7  flex">
           <a
-            className="mr-2 sm:mr-5 pt-3"
+            className=" pt-3"
             href="https://www.linkedin.com/in/muhammed-khan-63b009234/"
             target="_blank"
           >
-            <FaLinkedin size={31} color="#0A66C2" />
+            <img src={linkedin} alt="cv-icon" className="max-w-[35px] " />
           </a>
 
           <button onClick={handleDownloadCV}>
-            <img src={cv} alt="cv-icon" className="max-w-[35px] mr-2 sm:mr-5" />
+            <img src={cv} alt="cv-icon" className="max-w-[35px]  pt-3" />
           </button>
 
           <a
