@@ -24,6 +24,7 @@ import {
   animal,
   fluid,
   osman,
+  animalSite,
 } from "../assets";
 
 export const navLinks = [
@@ -225,6 +226,28 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Animal Athletics Landing Page",
+    description:
+      "A landing page I have created for the brand Animal Athletics, which is part of a bigger project where I will build a full-stack ecommerce site for their products.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "emailjs",
+        color: "green-text-gradient",
+      },
+    ],
+    image: animalSite,
+    source_code_link: "",
+    live_link: "",
+  },
   {
     name: "MK Games Back-end Server",
     description:
