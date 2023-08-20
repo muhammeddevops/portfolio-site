@@ -34,6 +34,7 @@ import osman from "./company/osman-telecom-logo.png";
 import mkbackend from "./mkbackend-ss.png";
 import mkgames from "./MKgamesDM.png";
 import siteConstruction from "./site-construction.jpg";
+import animalSite from "./animal-a-landing.png";
 
 import portfolio from "./portfolio-site.png";
 
@@ -64,6 +65,7 @@ export {
   mkbackend,
   portfolio,
   siteConstruction,
+  animalSite,
   mkgames,
   oakwell,
   northcoders,

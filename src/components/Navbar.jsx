@@ -15,12 +15,12 @@ const Navbar = () => {
   const handleDownloadCV = async () => {
     console.log("in here");
     try {
-      const response = await fetch("/cvNew.docx"); // Path to CV file
+      const response = await fetch("/cvNew.pdf"); // Replace with the correct path to your CV file
       const blob = await response.blob();
       const url = window.URL.createObjectURL(blob);
       const link = document.createElement("a");
       link.href = url;
-      link.download = "JSbyMKdotComCV.docx"; // Desired file name
+      link.download = "JSbyMKdotComCV.pdf"; // Replace with your desired file name
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
@@ -67,7 +67,6 @@ const Navbar = () => {
           <button onClick={handleDownloadCV}>
             <img src={cv} alt="cv-icon" className="max-w-[35px]  pt-3" />
           </button>
-
           <a
             className="pt-3"
             href="https://github.com/muhammeddevops"
