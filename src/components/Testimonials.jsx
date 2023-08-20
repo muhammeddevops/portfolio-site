@@ -67,5 +67,3 @@ const Testimonials = () => {
 };
 
 export default SectionWrapper(Testimonials, "");
-
-//xs:grid lg:grid xs:grid-cols-1 lg:grid-cols-1

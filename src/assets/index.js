@@ -10,7 +10,6 @@ import cv from "./resume2.png";
 import linkedin from "./linkedin2.png";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -49,7 +48,6 @@ export {
   cv,
   linkedin,
   css,
-  docker,
   figma,
   git,
   html,

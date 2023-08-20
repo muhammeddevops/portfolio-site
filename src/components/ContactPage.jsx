@@ -1,5 +1,5 @@
 import React from "react";
-import { Contact, StarsCanvas } from "./index";
+import { Contact } from "./index";
 
 const ContactPage = () => {
   return (

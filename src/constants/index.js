@@ -10,7 +10,6 @@ import {
   mongodb,
   git,
   figma,
-  docker,
   oakwell,
   mremovals,
   northcoders,
@@ -27,10 +26,6 @@ import {
 } from "../assets";
 
 export const navLinks = [
-  // {
-  //   id: "",
-  //   title: "Home",
-  // },
   {
     id: "about",
     title: "About",

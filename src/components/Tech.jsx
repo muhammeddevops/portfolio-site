@@ -1,7 +1,6 @@
 import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
-import { Canvas } from "@react-three/fiber";
 
 import { motion } from "framer-motion";
 import { textVariant } from "../utils/motion";

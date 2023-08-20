@@ -1,6 +1,5 @@
 import React from "react";
 import { Overview, Experience } from "./index";
-import { SectionWrapper } from "../hoc";
 
 const About = () => {
   return (

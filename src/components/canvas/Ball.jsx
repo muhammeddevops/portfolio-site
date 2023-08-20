@@ -7,12 +7,8 @@ import {
   Preload,
   useTexture,
 } from "@react-three/drei";
-import { motion } from "framer-motion";
-import { textVariant } from "../../utils/motion";
-import { styles } from "../../styles";
 
 import CanvasLoader from "../Loader";
-import { IcosahedronGeometry, TubeGeometry } from "three";
 
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
