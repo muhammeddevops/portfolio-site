@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close, linkedin } from "../assets";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 import { cv } from "../assets";
 
@@ -15,12 +15,12 @@ const Navbar = () => {
   const handleDownloadCV = async () => {
     console.log("in here");
     try {
-      const response = await fetch("/cvNew.pdf"); // Replace with the correct path to your CV file
+      const response = await fetch("/cvNew.pdf"); // Path to CV file
       const blob = await response.blob();
       const url = window.URL.createObjectURL(blob);
       const link = document.createElement("a");
       link.href = url;
-      link.download = "JSbyMKdotComCV.pdf"; // Replace with your desired file name
+      link.download = "JSbyMKdotComCV.pdf"; // Replace with desired file name
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
