@@ -220,7 +220,7 @@ const projects = [
   {
     name: "Animal Athletics Landing Page",
     description:
-      "A landing page I have created for the brand Animal Athletics, which is part of a bigger project where I will build a full-stack ecommerce site for their products.",
+      "A landing page I have created for the brand Animal Athletics, which is part of a bigger project where I will build a full-stack ecommerce site for their products. This landing site is designed to draw attention to the brand and subsequently collect emails to build up a mailing list.",
     tags: [
       {
         name: "react",
@@ -236,8 +236,8 @@ const projects = [
       },
     ],
     image: animalSite,
-    source_code_link: "",
-    live_link: "",
+    source_code_link: "https://github.com/muhammeddevops/animal-athletics",
+    live_link: "https://animal-athletics.netlify.app/",
   },
   {
     name: "MK Games Back-end Server",
