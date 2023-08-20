@@ -29,7 +29,7 @@ Follow these steps to set up the project locally:
 2. Clone the forked repository to your local machine:
 
    ```
-   git clone https://github.com/muhammeddevops/portfolio-site
+   git clone https://github.com/yourusername/portfolio-site
    ```
 
 3. Navigate to the project directory:
