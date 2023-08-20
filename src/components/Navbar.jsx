@@ -13,7 +13,6 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   const handleDownloadCV = async () => {
-    console.log("in here");
     try {
       const response = await fetch("/cvNew.pdf"); // Path to CV file
       const blob = await response.blob();
