@@ -24,6 +24,7 @@ import {
   fluid,
   osman,
   animalSite,
+  nextjs,
 } from "../assets";
 
 export const navLinks = [
@@ -72,6 +73,10 @@ const technologies = [
   {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "Next JS",
+    icon: nextjs,
   },
   {
     name: "Tailwind CSS",

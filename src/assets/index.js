@@ -23,6 +23,7 @@ import bootstrap from "./tech/bootstrap.png";
 import jest from "./tech/jest.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/next-js.png";
 
 import oakwell from "./company/oakwell.png";
 import mremovals from "./company/marriotremovals.jpeg";
@@ -62,6 +63,7 @@ export {
   jest,
   typescript,
   threejs,
+  nextjs,
   mkbackend,
   portfolio,
   siteConstruction,
