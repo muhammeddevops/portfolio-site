@@ -117,7 +117,7 @@ const Navbar = () => {
               <li
                 className={`${
                   active === "Home" ? "text-white" : "text-secondary"
-                } hover:text-white text-[18px] font-medium cursor-pointer`}
+                } hover:text-white text-[16px] font-medium cursor-pointer`}
                 onClick={() => setActive("Home")}
               >
                 <Link to="/">Home</Link>
