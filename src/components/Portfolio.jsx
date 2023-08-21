@@ -4,7 +4,7 @@ import { SectionWrapper } from "../hoc";
 
 const Portfolio = () => {
   return (
-    <div className="mt-12 bg-hero-pattern">
+    <div className="mt-12 bg-hero-pattern bg-cover bg-no-repeat">
       <div className="bg-bg1 bg-cover bg-no-repeat bg-center">
         <Tech />
       </div>

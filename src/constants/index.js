@@ -110,7 +110,7 @@ const technologies = [
 const experiences = [
   {
     title: "Front-end Developer",
-    company_name: "Fluid AI",
+    company_name: "Oreon AI",
     icon: fluid,
     iconBg: "#FFFFFF",
 
