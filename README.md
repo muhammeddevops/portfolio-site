@@ -4,7 +4,7 @@
 
 Link to hosted site: https://jsbymk.com/
 
-JSbyMK is a portfolio website designed to showcase my skills, introduce myself, display my experience, and highlight my projects. It also provides visitors with a convenient way to contact me through a built-in contact form.
+JSbyMK is my portfolio website designed to showcase my skills, introduce myself, display my experience, and highlight my projects. It also provides visitors with a convenient way to contact me through a built-in contact form.
 
 ## Technologies Used
 
